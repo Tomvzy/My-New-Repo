@@ -1,0 +1,83 @@
+Looking for git in: git
+Using git 2.32.0 from git
+Opening repository for path='/home/tomvzy' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/tomvzy/.bash_history' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/tomvzy/.bash_logout' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/tomvzy/.bashrc' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/tomvzy/.bashrc.bak' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/tomvzy/.gem' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/tomvzy/.gitconfig' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/tomvzy/.landscape' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/tomvzy/.motd_shown' failed; ex=Error: spawn ENOTDIR
+> git rev-parse --git-dir
+Open repository: /home/tomvzy/.nvm
+> git status -z -u
+> git symbolic-ref --short HEAD
+fatal: ref HEAD is not a symbolic ref
+> git rev-parse HEAD
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+Opening repository for path='/home/tomvzy/.profile' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/tomvzy/.ssh' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/tomvzy/.sudo_as_admin_successful' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/tomvzy/.vscode-server' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git check-ignore -v -z --stdin
+Opening repository for path='/home/tomvzy/.ssh' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/tomvzy' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/tomvzy' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/tomvzy' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}

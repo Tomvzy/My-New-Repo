@@ -1,0 +1,49 @@
+Validating found git in: git
+Using git 2.32.0 from git
+> git rev-parse --git-dir
+Open repository: /home/tomvzy/Development2/code/phase-0-completing-assignments
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git check-ignore -v -z --stdin
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/tomvzy/Development2/code/phase-0-completing-assignments/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :.canvas
+> git ls-files --stage -- /home/tomvzy/Development2/code/phase-0-completing-assignments/.canvas
+> git cat-file -s 84b3448fe610870f618c15f0729c984e394a1cea
+> git check-ignore -v -z --stdin
+> git show --textconv :test/index-test.js
+> git ls-files --stage -- /home/tomvzy/Development2/code/phase-0-completing-assignments/test/index-test.js
+> git cat-file -s 218657a59c29a85f67784d1b7c157dd069b21608
+> git show --textconv :LICENSE.md
+> git ls-files --stage -- /home/tomvzy/Development2/code/phase-0-completing-assignments/LICENSE.md
+> git cat-file -s fbd16f948ec894632fb9e66eff2f5590ee3ff5e8
+> git show --textconv :test/index-test.js
+> git ls-files --stage -- /home/tomvzy/Development2/code/phase-0-completing-assignments/test/index-test.js
+> git cat-file -s 218657a59c29a85f67784d1b7c157dd069b21608
+> git show --textconv :.canvas
+> git ls-files --stage -- /home/tomvzy/Development2/code/phase-0-completing-assignments/.canvas
+> git cat-file -s 84b3448fe610870f618c15f0729c984e394a1cea
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/tomvzy/Development2/code/phase-0-completing-assignments/.gitignore
+> git cat-file -s eaf1b33eb5b5a366fde107ff057ce2e40c3a7946
+> git show --textconv :.learn
+> git ls-files --stage -- /home/tomvzy/Development2/code/phase-0-completing-assignments/.learn
+> git cat-file -s fbe474ad100540e1382e5e1de850de0207b9fffb
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/tomvzy/Development2/code/phase-0-completing-assignments/.gitignore
+> git cat-file -s eaf1b33eb5b5a366fde107ff057ce2e40c3a7946
+> git show --textconv :.canvas
+> git ls-files --stage -- /home/tomvzy/Development2/code/phase-0-completing-assignments/.canvas
+> git cat-file -s 84b3448fe610870f618c15f0729c984e394a1cea
+> git show --textconv :test/index-test.js
+> git ls-files --stage -- /home/tomvzy/Development2/code/phase-0-completing-assignments/test/index-test.js
+> git cat-file -s 218657a59c29a85f67784d1b7c157dd069b21608
+> git show --textconv :.canvas
+> git ls-files --stage -- /home/tomvzy/Development2/code/phase-0-completing-assignments/.canvas
+> git cat-file -s 84b3448fe610870f618c15f0729c984e394a1cea
+> git show --textconv :test/index-test.js
+> git ls-files --stage -- /home/tomvzy/Development2/code/phase-0-completing-assignments/test/index-test.js
+> git cat-file -s 218657a59c29a85f67784d1b7c157dd069b21608

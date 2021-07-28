@@ -1,0 +1,8 @@
+[color]
+	ui = true
+[user]
+	name = Tomas
+	email = Thomas231026@gmail.com
+	name = Tomas
+[init]
+	defaultBranch = main
